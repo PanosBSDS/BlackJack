@@ -1,0 +1,360 @@
+
+html, body {
+	width: 100%;
+	height:100%;
+  }
+  
+  body {
+	  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	  background-size: 400% 400%;
+	  animation: gradient 15s ease infinite;
+	  font-family: "Palatino Linotype";
+  }
+  
+  @keyframes gradient {
+	  0% {
+		  background-position: 0% 50%;
+	  }
+	  50% {
+		  background-position: 100% 50%;
+	  }
+	  100% {
+		  background-position: 0% 50%;
+	  }
+  }
+
+
+
+/*------------------TABLE GAME---------------------------*/
+/*------------it will stop exists------------------------*/
+.tableGame{
+	
+	text-align:center; 
+	/* width:95%;
+	margin: 0 auto;  */
+
+}
+
+.tableGame img{
+	height:150px;
+}
+
+
+.tableGame .dealerForm{
+	display:inline-block;  
+	margin:5px;
+	margin-top:100px;
+}
+
+.tableGame .playerForm{
+	display:inline-block;  
+	margin:5px;
+	margin-top:100px;
+}
+
+.tableGame .settingsForm{
+	margin-top: 50px;
+}
+
+.tableGame div input{
+	border-radius:12px; 
+	border-color:aqua;  
+}
+
+
+.toggleUl{
+	display:none;
+}
+
+.settingsForm ul{
+	padding: 0;
+	margin-top: 5px;
+}
+
+.tableGame div input:hover{
+	box-shadow: 15px 10px 30px aqua;
+	border-color:#0c8a8a; 
+}
+/*---------------------------------------------------*/
+/*-----------------------GAME AREA-----------------------------*/
+
+.gameArea{
+	border:5px solid aqua;
+	/*height:500px; */
+	width:95%;
+	margin:0 auto;  
+	justify-content:center;
+	display:none;
+	margin-top: 50px;  
+
+
+}
+
+/*-----------------DEALER AREA--------------------------*/
+
+.dealerArea{
+	border:1px solid aqua;
+	text-align:center; 
+	display:inline-block;
+	justify-content:center;  
+	
+}
+
+
+
+#describeCardDealer{
+	border:1px solid aqua;
+	width:80%;
+	margin:0 auto;
+	border-radius:20px;
+	color:#020234;  
+	font-weight:bold;
+	font-variant:small-caps;  
+	height: 27px; 
+   
+}
+
+/*-----------------------NAME-AREA--------------------------------*/
+
+.dealerNameArea{
+	border: 1px solid aqua;
+	font-size:30px;
+	border-radius:20px;
+	color:aqua;  
+	font-weight:bold;
+	box-sizing:content-box;
+	margin-bottom:20px;  
+
+}
+
+.dealerNameArea p{
+	margin-bottom:0px; 
+}
+
+/*----------------BUTTONS-DEALER--------------------------------*/
+
+#buttonCardDealer{
+	border-radius:15px;
+	border:1px solid aqua;
+	margin:20px; 
+	-webkit-transition:-webkit-transform 1s ease-in-out;
+    transition:transform 1s ease-in-out;
+    transition-duration: 1s;
+
+}
+
+#buttonCardDealer:hover{
+	background-color:aqua; 
+	border-color:white; 
+  	-webkit-transform: rotate(360deg);
+     transform: rotate(360deg);
+
+}
+
+#buttonStopDealer{
+	border-radius:15px;
+	border:1px solid #7a0606ed;
+	margin-bottom:20px; 
+	-webkit-transition:-webkit-transform 1s ease-in-out;
+	transition:transform 1s ease-in-out;
+	transition-duration:1s;   
+}
+
+#buttonStopDealer:hover{
+	background-color:#7a0606;
+	border-color:white;
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);   
+}
+
+/*-----------------------IMAGE DEALER----------------------------*/
+
+#imageCardDealer{
+	/*-webkit-transition:-webkit-transform 1s ease-in-out;*/
+    transition:transform 2s ease-in-out;
+    box-shadow:10px 10px 20px; 
+    
+}
+
+#imageCardDealer:hover{
+		/*-webkit-transform: rotate(360deg) scale(1.6);*/
+        transform:rotate(360deg) scale(1.6);
+
+}
+
+/*---------------------OUTCOME DEALER-----------------------------*/
+#outcomeDealer{
+	font-size:40px;
+	font-weight:bold;
+	color:aqua;
+	text-shadow:2px 2px aqua; 
+	height: 54px;
+}
+
+.outcomeDealer{
+	height:60px;
+}
+
+
+
+
+/*-------------------------------------------------------*/
+
+/*------------------PLAYER AREA--------------------------*/
+
+.playerArea{
+	 /*height:200px; */
+	border:1px solid aqua;
+	text-align:center; 
+	display:inline-block;
+	justify-content:center;    
+}
+
+
+
+#describeCardPlayer{
+	border:1px solid aqua;
+	width:80%;
+	margin:0 auto;
+	border-radius:20px; 
+	color:#020234;  
+	font-weight:bold;
+	font-variant:small-caps;  
+	height: 27px;
+}
+
+/*-----------------------NAME-AREA--------------------------------*/
+
+.playerNameArea{
+	border: 1px solid aqua;
+	font-size:30px;
+	border-radius:20px;
+	color:aqua;  
+	font-weight:bold;
+	box-sizing:content-box;
+	margin-bottom:20px;  
+
+}
+
+.playerNameArea p{
+	margin-bottom:0px; 
+}
+
+/*-----------------------BUTTONS-PLAYER-------------------------*/
+
+#buttonCardPlayer{
+	border-radius:15px;
+	border:1px solid aqua;
+	margin:20px; 
+	-webkit-transition:-webkit-transform 1s ease-in-out;
+    transition:transform 1s ease-in-out;
+    transition-duration: 1s;
+ 
+}
+
+#buttonCardPlayer:hover{
+	background-color:aqua; 
+	border-color:white; 
+	-webkit-transform: rotate(360deg);
+     transform: rotate(360deg);
+}
+
+#buttonStopPlayer{
+	border-radius:15px;
+	border:1px solid #7a0606;
+	margin-bottom:20px; 
+	-webkit-transition:-webkit-transform 1s ease-in-out;
+    transition:transform 1s ease-in-out;
+    transition-duration: 1s;
+}
+
+#buttonStopPlayer:hover{
+	background-color:#7a0606;
+	border-color:white;
+	-webkit-transform:rotate(360deg);
+	transform:rotate(360deg);  
+}
+
+/*------------------IMAGE PLAYER----------------------------*/
+
+#imageCardPlayer{
+	/*-webkit-transition:-webkit-transform 1s ease-in-out;*/
+    transition:transform 2s ease-in-out;
+    box-shadow:10px 10px 20px; 
+
+}
+
+#imageCardPlayer:hover{
+	/*-webkit-transform: rotate(360deg) scale(1.6);*/
+    transform:rotate(360deg) scale(1.6);
+}
+/*------------------OUTCOME PLAYER--------------------------*/
+#outcomePlayer{
+	font-size:40px;
+	font-weight:bold;
+	color:aqua;
+	text-shadow:2px 2px aqua; 
+	height: 54px;
+}
+
+.outcomePlayer{
+	height: 60px;
+}
+/*-----------------OUTCOME AREA------------------------------*/
+.outcomeArea{
+	text-align: center;
+	margin:0 auto;
+	margin-top:20px;   
+}
+.findTheWinner{
+	font-size:30px;
+	color:aqua;
+	text-shadow:2px 1px #020234; 
+}
+
+.newDealer{
+	color: aqua;
+	font-size: 20px;
+}
+
+.nextRoundButton{
+	display:none; 
+}
+
+.nextRoundButton:hover{
+	color:aqua; 
+	background-color:#020234; 
+	border-radius:20px; 
+	box-shadow: 15px 10px 30px aqua;
+}
+
+.score{
+	color:#020234; 
+	border:1px solid aqua;
+	border-radius: 20px;
+	font-size:30px;
+	display:none;
+	padding:15px;
+	font-variant:small-caps;   
+}
+
+.winArea{
+	text-align:center;
+	margin:0 auto;
+	margin-top:20px;
+	display:none;
+}
+/*---------------------------------------------------------------------*/
+
+@media screen and (max-width:322px) {	
+	.score{font-size: 15px;}
+}	
+
+@media screen and (max-width:600px) {	
+	.tableGame .settingsForm{
+		padding: 5px;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+}	
+
