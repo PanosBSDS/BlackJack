@@ -388,6 +388,3 @@ $(".nextRoundButton").on("click",function(){
 // 49: "Jack of Clubs"
 // 50: "Queen of Clubs"
 // 51: "King of Clubs"
-
-
-// eisai xazos
