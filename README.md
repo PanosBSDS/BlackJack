@@ -20,6 +20,6 @@ The gameplay is manual, you have to create a name and a new ui style will appear
 Click the first button in order to pull a card and continue pull cards to make the highest total of the card numbers.<br/>
 Click the second button in order to stop your round and then the next player can play.<br/>
 The rules is my creation and idea to make the game a little more competitive and more funny.<br/>
-Visit http://panos.basadis.me/blackJack/blackJack.html to play the game here.<br/>
-Visit my CV site http://panos.basadis.me<br/> 
+Visit http://basadis.com/blackJack/blackJack.html to play the game here.<br/>
+Visit my CV site http://basadis.com<br/> 
 Junior Front-End-Developer.<br/>
